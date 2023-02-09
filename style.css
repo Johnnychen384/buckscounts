@@ -13,3 +13,57 @@
 }
 
 /* your code */
+
+
+body {
+  background-color: #1e3932;
+  margin: .3em .8em;
+  border: .3em solid rgb(251, 92, 0);
+  border-radius: .2em;
+
+}
+
+nav, header, section {
+  width: 98%;
+  margin: 1em auto;
+  border-radius: .2em;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: .3em solid lightskyblue;
+}
+
+nav > h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  padding: .2em .4em;
+  padding-bottom: .4em;
+}
+
+header {
+  background-color: rgb(157, 155, 155);
+  padding: 1em 1em;
+  font-size: 1.1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: .4em;
+  border: .15em solid white;
+  padding: 1em;
+}
+
+section > .city-item {
+  height: 2em;
+  text-align: end;
+  background-color: #00754a;
+  border-radius: .1em;
+  padding-right: .3em;
+  padding-top: .4em;
+}
